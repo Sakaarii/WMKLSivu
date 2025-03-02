@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.Header-Picture{
+    background: -o-linear-gradient(45deg, transparent 45px, #ddd 0) bottom right;
+}
