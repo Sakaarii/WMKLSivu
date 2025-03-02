@@ -212,9 +212,9 @@ function App() {
         <div className="space-x-10 space-y-10 flex flex-row justify-evenly w-3/4 h-fit max-lg:w-9/10 max-lg:flex-col">
           <div className="w-full flex flex-col justify-center space-y-10">
             <h1 className="text-5xl font-bold text-center">Yhteystiedot</h1>
-            <p className="text-3xl text-center">BoulderointiHarrastusLiitto OY RY COM</p>
-            <p className="text-3xl text-center">045 1234567890</p>
-            <p className="text-3xl text-center">@BoulderointiHarrastusLiitto</p>
+            <p className="text-3xl max-lg:text-2xl text-center">BoulderointiHarrastusLiitto OY RY COM</p>
+            <p className="text-3xl max-lg:text-2xl text-center">045 1234567890</p>
+            <p className="text-3xl max-lg:text-2xl text-center">@BoulderointiHarrastusLiitto</p>
           </div>
           {!Joined && <div className="p-10 w-full flex flex-col justify-center space-y-10 border-4 bg-cyan-500 border-cyan-300 rounded-2xl" >
             <h1 className="text-5xl font-bold text-center">Liity Jäseneksi</h1>
